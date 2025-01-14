@@ -32,12 +32,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: [
-      "https://foodie-tau-ten.vercel.app",
-      "https://foodie-ahmads-projects-0e29ea31.vercel.app",
-      "https://foodie-git-master-ahmads-projects-0e29ea31.vercel.app",
-      "http://localhost:5173",
-    ],
+    origin: "http://localhost:5173",
     credentials: true,
     methods: ["GET", "POST", "DELETE", "PATCH", "PUT"],
   })
