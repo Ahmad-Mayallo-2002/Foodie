@@ -151,7 +151,7 @@ export default function Product() {
                 min={1}
                 defaultValue="1"
                 onValueChange={(event) => {
-                  setTotalPrice((prev) => prev * event.valueAsNumber);
+                  setTotalPrice(product?.price * event.valueAsNumber);
                   setAmount(event.valueAsNumber);
                 }}
               />

@@ -237,7 +237,7 @@ const AdminProfileLinks: ProfileLink[] = [
   },
 ];
 
-const mainUrl: string = "http://localhost:5000/api/";
+const mainUrl: string = "https://foodie-api-roan.vercel.app/api/";
 
 export type MyProduct = {
   _id?: string;
